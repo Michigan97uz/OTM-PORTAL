@@ -54,5 +54,9 @@ let routes = [
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+    data: {
+
+      habar: 'Bu vue ishlavoti'
+    }
 });

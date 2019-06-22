@@ -52589,7 +52589,10 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 
 var app = new Vue({
   el: '#app',
-  router: router
+  router: router,
+  data: {
+    habar: 'Bu vue ishlavoti'
+  }
 });
 
 /***/ }),
